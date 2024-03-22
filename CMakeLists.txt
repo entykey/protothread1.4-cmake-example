@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 project(pt_example C)
 
 # Add executable
-add_executable(pt_example example-small.c)
+add_executable(pt_example without_protothread.c)
 
 # Include pt.h header file
 target_include_directories(pt_example PRIVATE pt)
